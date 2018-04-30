@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.js"></script>
+    <script src="js/main.js" ></script>
+    <title>ScrollTry</title>
+</head>
+<body>
+    <div class="container clearfix">
+        <div class="row">
+            <div class="col-sm-3">
+                <span>菜单制作待定</span>
+            </div>
+            <div class="col-sm-9">
+                <ul class="nav nav-tabs">
+                    <li><button class="btn" onclick="_clickToJump(this)">first</button></li>
+                    <li><button class="btn" onclick="_clickToJump(this)">second</button></li>
+                    <li><button class="btn" onclick="_clickToJump(this)">third</button></li>
+                </ul>
+                <div class="recycle-view">
+                    <span>wait for coming up</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="firstElement" class="element">
+            <img src="img/1.png" alt="1.png">
+        </div>
+        <div id="secondElement" class="element">
+            <img src="img/2.png" alt="2.png">
+        </div>
+        <div id="thirdElement" class="element">
+            <img src="img/3.png" alt="3.png">
+        </div>
+    </div>
+</body>
+</html>
